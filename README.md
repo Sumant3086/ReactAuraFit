@@ -1,5 +1,6 @@
 AuraFit
-Live Demo: AuraFit
+Live Demo: [Live Demo](https://aurafit.netlify.app/)
+
 
 AuraFit is a modern fitness platform that provides users with personalized workout plans, structured nutrition guidance, and progress tracking.
 
