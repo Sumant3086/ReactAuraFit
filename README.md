@@ -106,9 +106,7 @@ If using API calls (for future integration with a backend), ensure you configure
 
 Contributing
 We welcome contributions! Feel free to submit issues, suggestions, and pull requests to improve the AuraFit website.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+ 
 
 Contact
 Email: sumantyadav3086@gmail.com
