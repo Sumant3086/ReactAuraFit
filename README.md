@@ -1,98 +1,107 @@
-AuraFit Gym Website (Frontend)
-Overview
-AuraFit is a modern and intuitive gym website built using React. The website showcases the gym's offerings, including class schedules, pricing plans, available products in the shop, and easy contact options. Users can explore different membership tiers, book gym classes, and reach out to the gym for further inquiries.
+AuraFit Gym - Premium Fitness Experience
+Elevating Your Fitness Journey
+AuraFit isn't just another gym - it's a holistic fitness ecosystem designed to transform your workout routine into an engaging, results-driven experience. Our React-powered platform combines cutting-edge technology with fitness expertise to deliver seamless access to classes, memberships, and premium gear.
 
-Demo
-You can explore the live demo of the AuraFit Gym Website here: Demo
+🔗 Explore Now: https://absoluteaurafit.netlify.app/
 
-Features
-Classes: Discover various fitness classes offered by the gym, such as boxing, group sessions, and specialized training programs.
+Why Choose AuraFit?
+🏋️‍♂️ Smart Class Management
+Real-time schedule with dynamic filtering (by intensity, trainer, time)
 
-Pricing: Detailed information about different subscription plans like BASIC and STRIKE, including monthly costs and included benefits.
+Waitlist functionality for fully-booked classes
 
-Shop: Browse fitness-related products including equipment, accessories, and gym apparel.
+Personalized recommendations based on workout history
 
-Contact: Reach out to the gym via email or phone for inquiries about memberships or general information.
+💳 Flexible Membership Options
+Plan	Price	Key Features
+BASIC	$70/mo	Unlimited access + 2 personal sessions
+STRIKE	$50/mo	20 visits + group classes
+ELITE	$90/mo	All-access + nutrition planning
+(Coming soon: Corporate plans & family packages)
 
-Subscription Plans
-BASIC PLAN: $70/month
+🛒 Integrated Fitness Shop
+Curated supplements from top brands
 
-Access to boxing gym
+Smart recommendations based on your workout regimen
 
-Group sessions
+One-click reorder for frequent purchases
 
-Personal coaching sessions
+📱 Multi-Platform Accessibility
+Progressive Web App (PWA) for offline access
 
-Limited entries
+Dedicated mobile app in development (Q1 2024)
 
-STRIKE PLAN: $50/month
+Technical Excellence
+Architecture Highlights
+Diagram
+Code
 
-Access to boxing gym
 
-Group classes
 
-Special sessions
 
-20 entries per month
 
-Quick Links
-Membership
 
-Shop
+Performance Optimizations
+Lazy loading for images and components
 
-Contact
+Code splitting for faster initial load
 
-Tech Stack
-Frontend: React
+95+ Lighthouse score for accessibility and SEO
 
-State Management: React Context API
+Getting Started for Developers
+Advanced Setup Options
+1. Environment Configuration
 
-Styling: CSS Modules or Styled Components (based on your preference)
-
-Installation
-To run the project locally:
-
-Clone the repository
 bash
-Copy
-Edit
-git clone https://github.com/yourusername/auraFit.git
-cd auraFit
-Install dependencies
+# Create .env file
+REACT_APP_API_URL=https://api.aurafit.example.com
+REACT_APP_STRIPE_KEY=pk_test_xxxxxxxx
+2. Docker Deployment
+
+dockerfile
+FROM node:16
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+EXPOSE 3000
+CMD ["npm", "start"]
+3. Testing Suite
+
 bash
-Copy
-Edit
-npm install
-Start the development server
-bash
-Copy
-Edit
-npm start
-This will launch the app in development mode. Open http://localhost:3000 in your browser to view the website.
+# Run comprehensive tests
+npm test
+# Component snapshot testing
+npm run test:ui
+Roadmap & Vision
+Q3 2025
+Member achievement badges system
 
-Usage
-Explore Classes: View different fitness classes available at the gym, including class details and schedules.
+Integration with wearable devices
 
-View Pricing Plans: Check the different subscription plans (BASIC, STRIKE) with full feature breakdowns.
+Q4 2025
+Virtual training sessions
 
-Shop Products: Browse gym-related products such as accessories, equipment, and clothing.
+AI-powered workout form analysis
 
-Contact Information: Contact the gym directly via email or phone for further inquiries or membership details.
+2025
+Franchise management portal
 
-Environment Variables
-If you plan to integrate API calls in the future, make sure to set up environment variables such as REACT_APP_API_URL to manage API endpoints.
+Global class marketplace
 
-Contributing
-We welcome contributions! Feel free to submit issues, suggestions, and pull requests to help improve the AuraFit website.
+Join Our Fitness Revolution
+💼 Partnerships: corporate@aurafit.example.com
+📢 Press Inquiries: media@aurafit.example.com
+🌍 Franchising: expand@aurafit.example.com
 
-Contact
-Email: sumantyadav3086@gmail.com
+Connect Deeper
+LinkedIn - For professional networking
 
-Phone: +91 9599 617 479
+Strava Club - Track community workouts
 
-Social Media
-Instagram
+Discord - Real-time member support
 
-YouTube
+🚀 Your Fitness Transformation Starts Here
+Get Started Today →
 
-Spotify
+AuraFit Demo Preview
